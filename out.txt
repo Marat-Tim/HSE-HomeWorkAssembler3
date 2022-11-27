@@ -1,0 +1,2 @@
+Since no input and output files are specified, stdin and stdout will be used
+0.721429
