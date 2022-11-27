@@ -93,8 +93,8 @@ main:
 	mov	DWORD PTR -36[rbp], edi		# argc
 	mov	QWORD PTR -48[rbp], rsi		# argv
 	
-	mov	rax, QWORD PTR fs:40	# tmp113, MEM[(<address-space-1> long unsigned int *)40B]
-	mov	QWORD PTR -8[rbp], rax	# D.3430, tmp113
+	mov	rax, QWORD PTR fs:40
+	mov	QWORD PTR -8[rbp], rax
 	
 	xor	eax, eax
 	cmp	DWORD PTR -36[rbp], 3		# if (argc == 3) {
